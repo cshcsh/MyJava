@@ -1,0 +1,4 @@
+包名：xxxyyyzzz格式
+类名，接口名：XxxYyyZzz格式
+变量名，方法名：xxxYyyZzz格式
+常量名：XXX_YYY_ZZZ格式
