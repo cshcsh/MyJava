@@ -1,0 +1,5 @@
+什么时候用抽象类，什么时候用接口
+
+建议优先使用接口
+
+final放在形参中有什么作用。如：public void printInfo(final String name){}
