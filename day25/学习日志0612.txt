@@ -1,0 +1,12 @@
+Java集合
+
+不推荐使用Vector
+在JAVA开发中已经不提倡直接使用Collection接口
+
+• List接口：存放有序可允许重复的内容
+
+Set接口：存放无序且不允许重复的内容,所有的重复内容是靠hashCode()和equals()两个方法区分的
+
+ArrayList与Vector的区别 (面试题)
+
+对于频繁的插入或删除元素的操作,建议使用LinkedList类,效率较高
