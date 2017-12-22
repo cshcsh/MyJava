@@ -1,0 +1,8 @@
+HashMap与Hashtable的区别(面试题)
+
+1推出时间		JDK 1.2之后推出的,属于新的操作类	JDK 1.0时推出,属于旧的操作类
+2性能 		采用异步处理方式,性能更高 			采用同步处理方式,性能较低
+3线程安全 		属于非线程安全的操作类 			属于线程安全的操作类
+4设置空值 		允许设置null值					不能设置null,如果设置则出现NullPointerException异常
+
+实现sort(List,Comparator)：根据指定的 Comparator 产生的顺序对 List 集合元素进行排序
