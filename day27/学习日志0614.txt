@@ -1,0 +1,16 @@
+程序中打开的文件 IO 资源不属于内存里的资源,垃圾回收机制无法回收该资源,所以应该显式关闭文件 IO资源。
+
+对象的序列化
+
+l 字节流-缓冲流（重点）
+Ø 输入流InputStream-FileInputStream-BufferedInputStream
+Ø 输出流OutputStream-FileOutputStream-BufferedOutputStream
+l 字符流-缓冲流（重点）
+Ø 输入流Reader-FileReader-BufferedReader
+Ø 输出流Writer-FileWriter-BufferedWriter
+l 转换流
+Ø InputSteamReader和OutputStreamWriter
+l 对象流ObjectInputStream和ObjectOutputStream（难点）
+Ø 序列化
+Ø 反序列化
+l 随机存取流RandomAccessFile（掌握读取、写入）
